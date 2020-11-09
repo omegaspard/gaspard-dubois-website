@@ -1,132 +1,460 @@
 @()
 
 @main("Gaspard Dubois Website") {
-  <h1>Welcome to gaspard dubois webiste.!</h1>
-  <p>This is my Website....</p>
 <!-- loader  -->
-<div class="loader_bg">
-  <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-</div>
+<!--<div class="loader_bg">
+    <div class="loader"><img src="assets/images/loading.gif" alt="#"/></div>
+</div>-->
 <!-- end loader -->
 <!-- header -->
 <header>
-  <!-- header inner -->
-  <!-- end header inner -->
+    <!-- header inner -->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                    <div class="full">
+                        <div class="center-desk">
+                            <div class="logo"><a href="index.html"><img src="assets/images/omega.png" alt="#"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                    <div class="menu-area">
+                        <div class="limit-box">
+                            <nav class="main-menu">
+                                <ul class="menu-area-main">
+                                    <li><a href="#about">About me</a></li>
+                                    <li><a href="#experiences">Experiences</a></li>
+                                    <li><a href="#technologies">Technologies</a></li>
+                                    <li><a href="#education">Education</a></li>
+                                    <li><a href="#certifications">Certifications</a></li>
+                                    <li><a href="#projects">Projects</a></li>
+                                    <li><a href="#others">Formations and others</a></li>
+                                    <li><a href="#resume">Resume</a></li>
+                                    <li><a href="#contact">Get in touch</a></li>
+                                    <li class="last"><a href="#"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header inner -->
 </header>
 <!-- end header -->
-<section >
-</section>
-<!-- Missions -->
-<div id="missions" class="missions">
-  <div class="container">
-    <div class="row">
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-    </div>
-  </div>
-</div>
-<!-- end plant -->
 <!-- about -->
 <div id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="about-box">
+                    <div class="titlepage">
+                        <h2>Hello I'm Gaspard</h2>
+                        <span>I cumulate 3 years of experience as a Data Engineer. Orienting my career toward Big Data, I put a lot of interest into the design and the development of data architecture with a high scalability potential.
+                            I consider that Software Engineering is all about delivery, defining the needs, planing the development steps, sharing the knowledge and coding are skills that any IT professional should own.
+                            In all of my experiences I seek the development of my craftmanship skills by producing simple, productive and efficient works that answers the clients demands.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- end about -->
-<!--Gallery -->
-<div id="gallery" class="Gallery">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="titlepage">
-          <h2>Our Gallery </h2>
+<!-- Experiences -->
+<div id="experiences" class="experiences">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="titlepage">
+                    <h2>My experiences</h2>
+                    <span>My different experiences as a Data Engineer.</span>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="container-fluid margin-r-l">
-    <div class="row">
-      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 thumb">
-        <div class="Gallery-box">
-          <figure>
-            <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-              <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-            </a>
-            <span class="hoverle">
-                     <a href="images/1.jpg" class="fancybox" rel="ligthbox">View</a>
-                     </span>
-          </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Data Engineer at Tinyclues</h3>
+                    <p>Tinyclues provide a SaaS platform to its client optimizing its marketing campaigns using real IA.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Data Engineer at Société Géneral</h3>
+                    <p>On the market place, in the commodities team named CTY, I was in charge of implementing spark jobs and kafka streams to build the MIFID2 report.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Data Engineer at CMS group (now named Umanis)</h3>
+                    <p>I set up and administer a hadoop cluster used by the data scientist and BI engineer to buidl machine learning models and data analysis job.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Data Engineer at Keyrus</h3>
+                    <p>I developped a library in order to facilitate the data transfert from a traditional database to a NoSQL database.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Java developper at AMFine Services and Software</h3>
+                    <p>Worked on the development of the asset management tool of the company.</p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 thumb">
-        <div class="Gallery-box">
-          <figure>
-            <a href="images/2.jpg" class="fancybox" rel="ligthbox">
-              <img  src="images/2.jpg" class="zoom img-fluid "  alt="">
-            </a>
-            <span class="hoverle">
-                     <a href="images/1.jpg" class="fancybox" rel="ligthbox">View</a>
-                     </span>
-          </figure>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 thumb">
-        <div class="Gallery-box">
-          <figure>
-            <a href="images/3.jpg" class="fancybox" rel="ligthbox">
-              <img  src="images/3.jpg" class="zoom img-fluid "  alt="">
-            </a>
-            <span class="hoverle">
-                     <a href="images/3.jpg" class="fancybox" rel="ligthbox">View</a>
-                     </span>
-          </figure>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 thumb">
-        <div class="Gallery-box">
-          <figure>
-            <a href="images/4.jpg" class="fancybox" rel="ligthbox">
-              <img  src="images/4.jpg" class="zoom img-fluid "  alt="">
-            </a>
-            <span class="hoverle">
-                     <a href="images/4.jpg" class="fancybox" rel="ligthbox">View</a>
-                     </span>
-          </figure>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 thumb">
-        <div class="Gallery-box">
-          <figure>
-            <a href="images/5.jpg" class="fancybox" rel="ligthbox">
-              <img  src="images/5.jpg" class="zoom img-fluid "  alt="">
-            </a>
-            <span class="hoverle">
-                     <a href="images/5.jpg" class="fancybox" rel="ligthbox">View</a>
-                     </span>
-          </figure>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <div class="Gallery-box">
-          <figure>
-            <a href="images/6.jpg" class="fancybox" rel="ligthbox">
-              <img  src="images/6.jpg" class="zoom img-fluid "  alt="">
-            </a>
-            <span class="hoverle">
-                     <a href="images/6.jpg" class="fancybox" rel="ligthbox">View</a>
-                     </span>
-          </figure>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
-<!-- end Gallery -->
-  <!--contact -->
-  <div id="contact" class="contact">
-  </div>
-  <!-- end contact -->
-  <!-- footer -->
-  <footer>
-  </footer>
-  <!-- end footer -->
+<!-- end experiences -->
+<!-- technologies -->
+<div id="technologies" class="technologies">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="titlepage">
+                    <h2>Technologies</h2>
+                    <span>Here are a few technolgies I worked on lately</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Spark</h3>
+                    <p>Java/Scala and pyspark</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Aws Cloud</h3>
+                    <p>S3, Glue, EMR, Elastic</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Hadoop</h3>
+                    <p>Hortonworks</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Terraform</h3>
+                    <p>For Aws</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Docker</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3>Kubernetes</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end technologies -->
+<!-- education -->
+<div id="education" class="education">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="titlepage">
+                    <h2>Education</h2>
+                    <span>I own a master degree from the Paris Est Marne la vallée college.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end education -->
+<!-- certification -->
+<div id="certification" class="certification">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="titlepage">
+                    <h2>My experiences</h2>
+                    <span>looking at its layout. The point of using Lorem Ipsumletters, as opposed to usingl</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end certification -->
+<!-- projects -->
+<div id="projects" class="others">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="titlepage">
+                    <h2>My experiences</h2>
+                    <span>looking at its layout. The point of using Lorem Ipsumletters, as opposed to usingl</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end projects -->
+<!-- formations-and-others -->
+<div id="formations-and-others" class="formations-and-others">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="titlepage">
+                    <h2>My experiences</h2>
+                    <span>looking at its layout. The point of using Lorem Ipsumletters, as opposed to usingl</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="experiences-box">
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end formations-and-others -->
+<!--contact -->
+<div id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="titlepage">
+                    <h2>Get in touch</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end contact -->
+<!-- footer -->
+<footer>
+    <div id="contact" class="footer">
+        <div class="container">
+            <div class="row pdn-top-30">
+                <div class="col-md-12 ">
+                    <div class="footer-box">
+                        <ul class="location_icon">
+                            <li><a href="#"><img src="assets/icon/facebook.png"></a></li>
+                            <li><a href="#"><img src="assets/icon/Twitter.png"></a></li>
+                            <li><a href="#"><img src="assets/icon/linkedin.png"></a></li>
+                            <li><a href="#"><img src="assets/icon/instagram.png"></a></li>
+                        </ul>
+                        <div class="menu-bottom">
+                            <ul class="link">
+                                <li><a href="#about">About me</a></li>
+                                <li><a href="#experiences">Experiences</a></li>
+                                <li><a href="#technologies">Technologies</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#certifications">Certifications</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#others">Formations and others</a></li>
+                                <li><a href="#resume">Resume</a></li>
+                                <li><a href="#contact">Get in touch</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>Put github informations here and the link.</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
 }
