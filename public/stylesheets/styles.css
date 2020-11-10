@@ -14,7 +14,6 @@ p{
     margin-bottin: 15px;
     font-size: 14px;
     line-height: 20px;
-    color: #D3D3D3;
 }
 
 .main_container {
@@ -59,20 +58,21 @@ line-height; 35px;
     margin: 0 10px;
 }
 
+/* Section blocks */
+.section-block {
+padding: 2% 5%;
+}
+
 /* Intropduction */
 .introduction {
 }
 
 /* About me */
 .about {
-padding: 5% 10%;
-text-align: center;
 }
 
 /* Experiences */
 .experiences {
-padding: 5% 10%;
-text-align: center;
 }
 
 
