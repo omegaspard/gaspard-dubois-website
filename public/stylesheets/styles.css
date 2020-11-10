@@ -26,7 +26,6 @@ p{
 
 h1.title {
     margin-bottom: 20px;
-    color: white;
     text-transform: uppercase;
     font-size: 38px;
     word-spacing: 25 px;
@@ -40,6 +39,16 @@ display:flex;
 width:100%;
 height:100%;
 border-bottom:3px solid #C5FAD5;
+}
+
+h2.title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    word-spacing: 12 px;
+    letter-spacing: 3px;
+    color: #C5FAD5
 }
 
 .button {
@@ -79,14 +88,17 @@ border-bottom:3px solid #C5FAD5;
 
 /* Section blocks */
 .section-block {
-    padding: 8% 0 8% 0;
+    padding-top: 8%;
 }
 
-.section-block p {
+.section-block p, h2, h3, h4, ul {
     word-spacing: 7 px;
     letter-spacing: 2px;
     margin-left: 128px;
+    font-size: 22px;
 }
+
+.section-block
 
 /* Intropduction */
 .introduction {
@@ -123,6 +135,7 @@ padding-bottom: 20px;
 /* Stand out */
 .stand-out-element {
     color: #C5FAD5;
+    filter: brightness(1.1)
 }
 
 /* Education */
@@ -134,16 +147,29 @@ padding-bottom: 20px;
 text-align:right;
 }
 
+.education li {
+padding: 10px;
+}
+
 /* Certification */
 .certification {
 
 }
 
+.certification li {
+padding: 10px;
+}
+
 /* Contact */
 .contact {
+padding-bottom: 150px;
+}
 
+.contact p {
+text-align: center;
+    line-height: 28px;
 }
 
 .contact h1.title {
- text-align: right;
+ text-align: center;
 }

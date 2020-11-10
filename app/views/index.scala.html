@@ -1,7 +1,7 @@
 @()
 
 @main("Gaspard Dubois Website") {
-
+<!-- Add dates for the informations -->
 <div class="main_container" id="home">
     <div class="navbar">
         <div class="logo">
@@ -14,7 +14,7 @@
                 <li><a href="#education"><span class="stand-out-element">III.</span> Education</a></li>
                 <li><a href="#certification"><span class="stand-out-element">IV.</span> Certifications</a></li>
                 <li><a href="#contact"><span class="stand-out-element">V.</span> Contact me</a></li>
-                <li><a href="#" class="button">Resume</a></li>
+                <li><a href="assets/resources/resume.pdf" class="button">Resume</a></li>
             </ul>
         </div>
     </div>
@@ -190,52 +190,54 @@
 
     <div class="section-block education" id="education">
         <h1 class="title">Education</h1>
-        <h3>Studies</h3>
+        <h2 class="title">Studies</h2>
         <ul>
-            <li>Master Degree in software engineering at Paris Est Marne la Vallée.</li>
-            <li>License of computer science and mathematics at Paris Est Marne la Vallée.</li>
+            <li>Master Degree in <span class="stand-out-element">software engineering</span> at Paris-Est Marne-la-Vallée.</li>
+            <li>License of <span class="stand-out-element">computer science and mathematics</span> at Paris-Est Marne-la-Vallée.</li>
         </ul>
-        <h3>Formations</h3>
+        <h2 class="title">Formations</h2>
         <ul>
-            <li>Hadoop course from O'reilly.</li>
-            <li>Spark Scala from coursera.</li>
-            <li>Apache Airflow course from Udemy.</li>
+            <li>Big Data Analisys with Scala and spark. <a href="https://www.coursera.org/account/accomplishments/verify/WWCRHRGX84LV"><span class="stand-out-element">See reference</span></a></li>
+            <li>The complete Hands-On Introductionto Apache Airflow. <a href="https://www.udemy.com/certificate/UC-K88YYJW6/"><span class="stand-out-element">See reference</span></a></li>
         </ul>
-        <h3>Personal interests</h3>
-        <p>Beside the Big Data, I'm also interested on aspect in IT field such as good practice, low level programming, penetration testing and video game development.
-        Here a few of last reading concerning those subject:
-        </p>
-        <h4>Books</h4>
+        <h2 class="title">Personal interests</h2>
+        <br/>
+        <h3 class="title">Books</h3>
         <ul>
-            <li>Architecture des ordinateurs</li>
-            <li>Programming in Scala</li>
-            <li>Clean coder</li>
-            <li>Clean code</li>
-            <li>Penetration Testing A hand on hacking</li>
-            <li>High performance in spark</li>
+            <li><span class="stand-out-element">Clean code</span> by Robert C. Martin</li>
+            <li><span class="stand-out-element">Clean coder</span> by Robert C. Martin</li>
+            <li><span class="stand-out-element">Programming in Scala</span> by Odersky, Spoon and Venners</li>
+            <li><span class="stand-out-element">Penetration Testing A hand on hacking</span></li>
+            <li><span class="stand-out-element">High performance Spark</span> by Karau & Warren</li>
+            <li><span class="stand-out-element">Architecture des machines</span> by J. Delacroix, A. Cazes</li>
+            <li><span class="stand-out-element">La Blockchain pour les nuls</span> by Tiana Laurence</li>
         </ul>
-        <h4>Personal projects</h4>
+        <br/>
+        <h3 class="title">Personal projects</h3>
         <ul>
-            <li><a href="#">This website</a> made with the scala play framework.</li><!--TODO add github -->
-            <li><a href="#">A snake coded in java</a> made with libGDX.</li><!--TODO add github-->
+            <li><a href="https://github.com/omegaspard/gaspard-dubois-website"><span class="stand-out-element">This website</span></a> made with the scala play framework.</li><!--TODO add github -->
+            <li><a href="https://github.com/omegaspard/simple-snake-in-java"><span class="stand-out-element">A snake coded in java</span></a> made with libGDX.</li><!--TODO add github-->
         </ul>
     </div>
 
-    <div class="section-block certifications" id="certification">
+    <div class="section-block certification" id="certification">
         <h1 class="title">Certification</h1>
         <ul>
-            <li>Aws Big Data Engineer certificate.</li><!-- TODO Add icons-->
-            <li>Cloudera Big Data Engineer certificate.</li><!-- TODO Add icons-->
+            <li>Aws Big Data Engineer certificate. (In progress)</li><!-- TODO Add icons and links -->
+            <li>Cloudera Big Data Engineer certificate. (In progress)</li><!-- TODO Add icon and links-->
         </ul>
     </div>
 
     <div class="section-block contact" id="contact">
         <h1 class="title">Get in touch</h1>
-        <p>If you want to contact me for business inquiries or if you just want to say hi feel free to send me an email
-            to <span>gaspardddubois@@gmail.com</span>
+        <p>For business inquiries or if you just want to say hi feel free to send an email: <br/>
+             <span class="stand-out-element">gaspardddubois@@gmail.com</span>. <br/><br/><br/>
+            <a href="assets/resources/resume.pdf" class="button">Resume</a>
+            <a href="assets/resources/resume.pdf" class="button">Copy mail</a>
+            <a href="mailto:gaspardddubois@@gmail.com" class="button">Send mail</a>
         <!-- TODO resume button -->
         </p>
     </div>
 </div>
-<!--  TODO add footer -->
+<!--  TODO add the side element with the link to linkedin, github and copy mail to clip board -->
 }
