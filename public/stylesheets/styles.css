@@ -51,6 +51,12 @@ h2.title {
     color: #C5FAD5
 }
 
+h3.title {
+    color: #C5FAD5;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 .button {
     padding: 16px 32px;
     border: 2px solid #C5FAD5;
@@ -130,6 +136,28 @@ padding-bottom: 20px;
 
 /* Experiences */
 .experiences {
+}
+
+.experiences-box {
+display: flex;
+}
+
+.experiences-nav-bar {
+
+}
+
+.experiences-content {
+    padding: 20px;
+}
+
+.experiences-content li {
+    margin: 5px;
+}
+
+.experiences-nav-bar li {
+    margin: 50px;
+    width: 270px;
+    text-align: center;
 }
 
 /* Stand out */
