@@ -204,10 +204,9 @@ padding-bottom: 150px;
 }
 
 .contact p {
-text-align: center;
     line-height: 28px;
 }
 
 .contact h1.title {
- text-align: center;
+ text-align: right;
 }
