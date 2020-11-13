@@ -61,6 +61,14 @@ h3.title {
     padding: 16px 32px;
     border: 2px solid #C5FAD5;
     border-radius: 15px;
+    box-shadow: 2px 2px 0 0 #C5FAD5;
+    transition: 0.2s all;
+}
+
+.button:hover {
+    box-shadow: 3px 3px 0 0 #C5FAD5;
+    background: #234E70;
+    filter: brightness(120%);
 }
 
 /* Navigation bar*/
@@ -71,7 +79,8 @@ h3.title {
     justify-content: space-around;
     align-items: center;
     font-size: 22px;
-    padding-top: 10px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .logo {
@@ -168,6 +177,10 @@ display: flex;
     width: 270px;
     text-align: center;
     padding: 0px;
+}
+
+.task-list li{
+    list-style: circle inside;
 }
 
 /* Stand out */
