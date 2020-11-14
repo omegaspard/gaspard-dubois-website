@@ -101,6 +101,11 @@ h3.title {
     margin: 0 10px;
 }
 
+/* fr en selector */
+.fr-en-selector {
+    text-align: center;
+}
+
 /* Section blocks */
 .section-block {
     padding-top: 8%;

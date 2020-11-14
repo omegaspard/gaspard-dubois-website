@@ -1,0 +1,240 @@
+@()
+
+@main("Gaspard Dubois Website") {
+<div class="main_container" id="home">
+    <div class="navbar">
+        <div class="logo">
+            <a href="#"><img src="assets/images/omega-dark-thin.png" witdh="124" height="124" /></a>
+        </div>
+        <div class="navbar_items">
+            <ul>
+                <li><a href="#about"><span class="stand-out-element">I.</span> À propos de moi</a></li>
+                <li><a href="#experiences"><span class="stand-out-element">II.</span> Experiences</a></li>
+                <li><a href="#education"><span class="stand-out-element">III.</span> Education</a></li>
+                <li><a href="#certification"><span class="stand-out-element">IV.</span> Certifications</a></li>
+                <li><a href="#contact"><span class="stand-out-element">V.</span> Me contacter</a></li>
+                <li><a href="assets/resources/cv.pdf" class="button">CV</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="fr-en-selector">
+        <a href="/"><img width="48" height=48" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDczLjY4IDQ3My42OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDczLjY4IDQ3My42ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggc3R5bGU9ImZpbGw6IzI5MzM3QTsiIGQ9Ik00MS43MTIsMTAyLjY0MWMtMTUuMjczLDIyLjE2OC0yNi44OCw0Ny4wNTktMzMuOTE4LDczLjgxMmgxMDcuNzM0TDQxLjcxMiwxMDIuNjQxeiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTMzN0E7IiBkPSJNMTcwLjUxMSw5LjQ4Yy0yNy4yODgsNy45NDctNTIuNTYsMjAuNjI4LTc0LjgxNCwzNy4xNjhsNzQuODE0LDc0LjgxNFY5LjQ4eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTMzN0E7IiBkPSJNMTAxLjI2MSw0MzAuOTgyYzIwLjg3NCwxNC42MDcsNDQuMTk1LDI1LjkxNSw2OS4yNSwzMy4yMTF2LTEwMi40NUwxMDEuMjYxLDQzMC45ODJ6Ii8+DQoJPHBhdGggc3R5bGU9ImZpbGw6IzI5MzM3QTsiIGQ9Ik0xMC41MTIsMzA2Ljc3MWM3LjgzMSwyNS4zNjYsMTkuODMxLDQ4Ljg5OSwzNS4xNjcsNjkuODMzbDY5LjgzMy02OS44MzNIMTAuNTEyeiIvPg0KPC9nPg0KPGc+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGQ9Ik00NS42MTksOTcuMTQ0Yy0xLjMyNCwxLjgxLTIuNjI5LDMuNjQ2LTMuOTA4LDUuNTAxbDczLjgxNiw3My44MTJINy43OTMNCgkJYy0xLjc0Niw2LjY0NS0zLjE3MSwxMy40MTgtNC4zNDUsMjAuMjg0aDE0MS43NzZMNDUuNjE5LDk3LjE0NHoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTk1Ljc2Nyw0MjcuMDc0YzEuODAyLDEuMzQzLDMuNjU0LDIuNjIxLDUuNDkzLDMuOTA4bDY5LjI1LTY5LjI0MnYxMDIuNDUNCgkJYzYuNjUzLDEuOTQ1LDEzLjQxLDMuNjI0LDIwLjI4NCw0Ljk3NFYzMzIuMDVMOTUuNzY3LDQyNy4wNzR6Ii8+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGQ9Ik01LjI1LDI4Ni40ODdjMS40Nyw2Ljg3MywzLjIwNSwxMy42NDIsNS4yNTgsMjAuMjg0aDEwNS4wMDFsLTY5LjgzMyw2OS44MzMNCgkJYzcuNTk1LDEwLjM3NywxNi4wMTcsMjAuMTE1LDI1LjE2OCwyOS4xMkwxOTAuMDgsMjg2LjQ4N0g1LjI1TDUuMjUsMjg2LjQ4N3oiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTE3MC41MTEsOS40OHYxMTEuOTgybC03NC44MTUtNzQuODFjLTEwLjMxNCw3LjY3LTE5Ljk1NSwxNi4xODUtMjguODg4LDI1LjQwM2wxMjMuOTgzLDEyMy45ODMNCgkJVjQuNTA2QzE4My45MjEsNS44NjQsMTc3LjE2NCw3LjU0NywxNzAuNTExLDkuNDh6Ii8+DQo8L2c+DQo8Zz4NCgk8cG9seWdvbiBzdHlsZT0iZmlsbDojRDMyMDMwOyIgcG9pbnRzPSIxNzAuNTExLDMwNi4wNTYgMTY5LjgsMzA2Ljc3MSAxNzAuNTExLDMwNi43NzEgCSIvPg0KCTxwb2x5Z29uIHN0eWxlPSJmaWxsOiNEMzIwMzA7IiBwb2ludHM9IjE5MC4wODQsMjg2LjQ4NyAxOTAuNzk0LDI4Ni40ODcgMTkwLjc5NCwyODUuNzczIAkiLz4NCgk8cG9seWdvbiBzdHlsZT0iZmlsbDojRDMyMDMwOyIgcG9pbnRzPSIyODEuMjI5LDE5Ni43MzcgMjgwLjU0NSwxOTYuNzM3IDI4MC41NDUsMTk3LjQyNSAJIi8+DQoJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0QzMjAzMDsiIHBvaW50cz0iMTcxLjIxLDE3Ni40NTcgMTcwLjUxMSwxNzUuNzU0IDE3MC41MTEsMTc2LjQ1NyAJIi8+DQoJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0QzMjAzMDsiIHBvaW50cz0iMTkwLjc5NCwxOTYuMDM3IDE5MC43OTQsMTk2LjczNyAxOTEuNDk0LDE5Ni43MzcgCSIvPg0KPC9nPg0KPGc+DQoJPHBhdGggc3R5bGU9ImZpbGw6IzI1MkY2QzsiIGQ9Ik0zMDAuODI1LDQxMS43NjR2NTMuMDkxYzI1LjM4MS03LjEwNSw0OS4wNDUtMTguMzA1LDcwLjIxMS0zMi44OTdsLTU3LjUyNi01Ny41MjYNCgkJQzMwOC45MTMsMzkwLjU4MywzMDcuMjMxLDM5OC45MzMsMzAwLjgyNSw0MTEuNzY0eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiMyNTJGNkM7IiBkPSJNMzEzLjgxMiwxMDguNDcxbDYyLjc5OS02Mi43OTlDMzU0LjA1LDI5LjE1LDMyOC40NTYsMTYuNTU5LDMwMC44MjQsOC44MTh2NTQuNTM4DQoJCUMzMDguMjEsNzguMTQ2LDMwOC44MzEsODkuMzg0LDMxMy44MTIsMTA4LjQ3MXoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojMjUyRjZDOyIgZD0iTTQyNy4wMjksMzc3Ljk4NGMxNS44MTUtMjEuMjc1LDI4LjE0MS00NS4yOSwzNi4xNDctNzEuMjEzaC0xMDcuMzZMNDI3LjAyOSwzNzcuOTg0eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiMyNTJGNkM7IiBkPSJNNDY1Ljg4NywxNzYuNDU3Yy03LjE4OC0yNy4zMTgtMTkuMTQzLTUyLjY3Ni0zNC44OTgtNzUuMTkybC03NS4yLDc1LjE5Mkg0NjUuODg3eiIvPg0KPC9nPg0KPGc+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0U3RTdFNzsiIGQ9Ik0zMjcuNjM4LDI5MC41bDE2LjI3NSwxNi4yNzVsNzcuOTAzLDc3LjkwM2MxLjc2OS0yLjIxNCwzLjUyNi00LjQyLDUuMjE3LTYuNjlsLTcxLjIxMy03MS4yMTMNCgkJaDEwNy4zNmMyLjA0Ni02LjYzOCwzLjc4NC0xMy40MSw1LjI1LTIwLjI4NEgzMjkuMTZDMzI4LjkzMiwyODkuMzY3LDMyNy45MTEsMjg3LjY0MywzMjcuNjM4LDI5MC41eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNFN0U3RTc7IiBkPSJNMzExLjM1MiwxMjAuMzQ4bDcwLjYwNy03MC42MTVjLTEuNzY5LTEuMzcyLTMuNTQxLTIuNzM3LTUuMzQ4LTQuMDYxbC02Mi43OTksNjIuNzk5DQoJCUMzMTQuNDYzLDExMC45NTQsMzEwLjc0NiwxMTcuODA1LDMxMS4zNTIsMTIwLjM0OHoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRTdFN0U3OyIgZD0iTTMwMC44MjUsNTguOTkyVjguODE0Yy02LjY0NS0xLjg2Mi0xMy40MS0zLjQ0LTIwLjI4NC00LjcyN3YyNC40NzYNCgkJQzI4OC4wODgsMzYuNzQ1LDI5NC44NTMsNDcuMDIyLDMwMC44MjUsNTguOTkyeiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNFN0U3RTc7IiBkPSJNMzI2LjA0MSwxOTYuNzM3aDE0NC4xOTVjLTEuMTcxLTYuODY2LTIuNTk5LTEzLjYzNS00LjM0NS0yMC4yODRIMzU1Ljc5M2w3NS4yLTc1LjE5Mg0KCQlDNDIzLjYsOTAuNyw0MTUuMzg0LDgwLjc2OCw0MDYuNDA5LDcxLjU2NWwtODQuNzAyLDg0LjY5NEMzMjMuOTg4LDE3MS42MjIsMzI1LjAwOSwxODAuNTQ0LDMyNi4wNDEsMTk2LjczN3oiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRTdFN0U3OyIgZD0iTTMxMC4wODgsMzcxLjAwMmw2MC45NTIsNjAuOTU5YzEwLjEzOC02Ljk4MiwxOS42ODUtMTQuNzUzLDI4LjU5My0yMy4xODlsLTgwLjE3My04MC4xNzcNCgkJQzMxNi45MDEsMzQzLjQyMywzMTMuODY1LDM1Ny43NDUsMzEwLjA4OCwzNzEuMDAyeiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNFN0U3RTc7IiBkPSJNMjgwLjU0NSw0NDIuMzAxdjI3LjI4YzYuODczLTEuMjc5LDEzLjYzNS0yLjg2NSwyMC4yODQtNC43Mjd2LTUzLjA5MQ0KCQlDMjk0Ljg1Myw0MjMuNzM4LDI4OC4wODgsNDM0LjEzLDI4MC41NDUsNDQyLjMwMXoiLz4NCjwvZz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNENzFGMjg7IiBkPSJNMzIxLjcwNywxNTYuMjU5bDg0LjY5NC04NC42OTRjLTcuNjI1LTcuODMxLTE1LjgtMTUuMTE5LTI0LjQ0Ni0yMS44MzJsLTY2LjU1LDY2LjU2MQ0KCUMzMTguMzYzLDEyOC42NTcsMzE5LjcwNiwxNDIuODA4LDMyMS43MDcsMTU2LjI1OXoiLz4NCjxnPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNEMzIwMzA7IiBkPSJNMjI1LjAxOSwwLjI5MkMyMjguOTY1LDAuMTAxLDIzMi44OTksMCwyMzYuODM2LDBDMjMyLjg3NiwwLDIyOC45MzUsMC4xMDEsMjI1LjAxOSwwLjI5MnoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRDMyMDMwOyIgZD0iTTIzNi44MzYsNDczLjY4Yy0zLjkzOCwwLTcuODcyLTAuMTA4LTExLjgxLTAuMjk5QzIyOC45NDIsNDczLjU3OSwyMzIuODc2LDQ3My42OCwyMzYuODM2LDQ3My42OHoiDQoJCS8+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0QzMjAzMDsiIGQ9Ik0yMzYuODM2LDQ3My42OGMxNC45NDMsMCwyOS41MzUtMS40NDcsNDMuNzA4LTQuMDk5di0yNy4yOA0KCQlDMjY4LjEwMyw0NTUuNzg2LDI1My41NDksNDczLjY4LDIzNi44MzYsNDczLjY4eiIvPg0KPC9nPg0KPGc+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0Q3MUYyODsiIGQ9Ik00NzAuMjMyLDE5Ni43MzdIMzI3LjkxMWMxLjg4NSwyOS43MDQsMS42NTcsNjAuMjQ5LTAuNjgxLDg5Ljc1aDE0MS4yDQoJCWMzLjQxOC0xNi4wMTcsNS4yNS0zMi42MTMsNS4yNS00OS42NDNDNDczLjY4LDIyMy4xNjQsNDcyLjQ2MSwyMDkuNzg0LDQ3MC4yMzIsMTk2LjczN3oiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRDcxRjI4OyIgZD0iTTMyNy42MzgsMjkwLjVjLTEuMzE2LDEzLjk5NC01LjkwMSwyNC44OTgtOC4xODIsMzguMDk5bDgwLjE3Myw4MC4xNzMNCgkJYzcuOTMyLTcuNTE3LDE1LjM0Ny0xNS41NTcsMjIuMTgzLTI0LjA5NGwtNzcuOS03Ny45MDdMMzI3LjYzOCwyOTAuNXoiLz4NCjwvZz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNEMzIwMzA7IiBkPSJNMjgwLjU0NSwzMC4zMjRWNC4wOTFDMjY2LjM3NiwxLjQ0NywyNTEuNzg0LDAsMjM2LjgzNiwwQzI1My41NDksMCwyNjguMTAzLDE2Ljg0MywyODAuNTQ1LDMwLjMyNHoiDQoJLz4NCjxnPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTMzN0E7IiBkPSJNMzAwLjgyNSw0MjIuMDA3YzYuNDA2LTEyLjgzNCwxMS44OTktMjcuNjA5LDE2LjQ5OS00My43NTdsLTE2LjQ5OS0xNi40OTlWNDIyLjAwN3oiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojMjkzMzdBOyIgZD0iTTMxOS4zNzcsMTAyLjkwNmMtNC45ODktMTkuMDg3LTExLjE2Ni0zNi40MzktMTguNTUyLTUxLjIyOXY2OS43NzNMMzE5LjM3NywxMDIuOTA2eiIvPg0KPC9nPg0KPGc+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGQ9Ik0zMzIuMjM0LDI5NS4wOTJjMC4yNjktMi44NTcsMC41MTItNS43MjUsMC43NDQtOC42MDVoLTkuMzQ5TDMzMi4yMzQsMjk1LjA5MnoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTMwMC44MjUsMTIxLjQ1MVY1MS42NzRjLTUuOTc2LTExLjk3LTEyLjczNy0yMi4yNTQtMjAuMjg0LTMwLjQyOXYxMjkuOTA2bDQwLjczNS00MC43MzUNCgkJYy0wLjYxMy0yLjU0My0xLjI1Ny01LjAzNC0xLjktNy41MTdMMzAwLjgyNSwxMjEuNDUxeiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNMjgxLjIyOSwxOTYuNzM3aDUyLjQyOWMtMS4wMjgtMTYuMTkyLTIuNjY2LTMyLjEyMy00Ljk0NC00Ny40ODJMMjgxLjIyOSwxOTYuNzM3eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNMjgwLjU0NSw0NTIuNDMyYzcuNTQ3LTguMTgyLDE0LjMwOC0xOC40NTksMjAuMjg0LTMwLjQyOXYtNjAuMjU2bDE2LjQ5OSwxNi40OTkNCgkJYzMuNzg0LTEzLjI2NCw2Ljk1OS0yNy40MzQsOS41MjUtNDIuMjYxbC00Ni4zMDctNDYuMzA0TDI4MC41NDUsNDUyLjQzMkwyODAuNTQ1LDQ1Mi40MzJ6Ii8+DQo8L2c+DQo8cGF0aCBzdHlsZT0iZmlsbDojRTUxRDM1OyIgZD0iTTI4MC41NDUsNDUyLjQzMlYyODkuNjgxbDQ2LjMwNCw0Ni4zMDdjMi4yNzctMTMuMjA1LDQuMDY5LTI2Ljg5OSw1LjM4MS00MC44OTZsLTguNjA1LTguNjA1aDkuMzQ5DQoJYzIuMzM3LTI5LjUwMiwyLjU2NS02MC4wNDcsMC42ODEtODkuNzVoLTUyLjQyOWw0Ny40ODItNDcuNDgyYy0yLjAwMS0xMy40NTUtNC40NzYtMjYuNDY5LTcuNDM0LTM4LjgzNmwtNDAuNzI4LDQwLjczNVYyMS4yNDgNCglDMjY4LjEwMyw3Ljc2MywyNTMuNTQ5LDAsMjM2LjgzNiwwYy0zLjkzOCwwLTcuODcyLDAuMTAxLTExLjgxNywwLjI5MmMtMTEuNjQ5LDAuNTgzLTIzLjA3MywyLjAxNi0zNC4yMjUsNC4yMTV2MTkxLjUzMQ0KCUw2Ni44MDgsNzIuMDU1Yy03LjYxOCw3Ljg2MS0xNC43MDQsMTYuMjM3LTIxLjE4OSwyNS4wODlsNzkuMzEzLDc5LjMxM2wyMC4yOTEsMjAuMjg0SDMuNDQ4QzEuMjI3LDIwOS43ODQsMCwyMjMuMTY0LDAsMjM2Ljg0NA0KCWMwLDE3LjAzNCwxLjg0LDMzLjYyNiw1LjI1LDQ5LjY0M2gxODQuODM0TDcwLjg0Nyw0MDUuNzI0YzcuODA4LDcuNjcsMTYuMTIxLDE0LjgxMywyNC45MjEsMjEuMzQ5bDk1LjAyMy05NS4wMjN2MTM3LjExNg0KCWMxMS4xNTEsMi4xOTksMjIuNTgzLDMuNjMxLDM0LjIzMiw0LjIxNWMzLjkzOCwwLjE5MSw3Ljg3MiwwLjI5OSwxMS44MSwwLjI5OUMyNTMuNTQ5LDQ3My42OCwyNjguMTAzLDQ2NS45MTcsMjgwLjU0NSw0NTIuNDMyeiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" /></a>
+        <img width="64" height=64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb486IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxjaXJjbGUgc3R5bGU9ImZpbGw6I0YwRjBGMDsiIGN4PSIyNTYiIGN5PSIyNTYiIHI9IjI1NiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0Q4MDAyNzsiIGQ9Ik01MTIsMjU2YzAtMTEwLjA3MS02OS40NzItMjAzLjkwNi0xNjYuOTU3LTI0MC4wNzd2NDgwLjE1NUM0NDIuNTI4LDQ1OS45MDYsNTEyLDM2Ni4wNzEsNTEyLDI1NnoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwMDUyQjQ7IiBkPSJNMCwyNTZjMCwxMTAuMDcxLDY5LjQ3MywyMDMuOTA2LDE2Ni45NTcsMjQwLjA3N1YxNS45MjNDNjkuNDczLDUyLjA5NCwwLDE0NS45MjksMCwyNTZ6Ii8+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" />
+    </div>
+
+    <div class="section-block introduction">
+        <h1 class="title">Salut, je suis Gaspard DUBOIS</h1>
+        <p>
+            Je suis un <span class="stand-out-element">Software Engineer</span> situé en <span class="stand-out-element">region parisienne</span> specialisé dans le <span class="stand-out-element">Big Data</span>.<br/><br/>
+            <q><i>Make everything as simple as possible, but not simpler.</i></q> - Albert Einstein<br/><br/><br/>
+            <a href="assets/resources/cv.pdf" class="button">CV</a> or <a href="#contact" class="button">Me contacter</a>
+        </p>
+    </div>
+
+    <div class="section-block about" id="about">
+        <h1 class="title">I. À propos de moi</h1>
+        <p>
+            J'ai <span class="stand-out-element">3 ans</span> d'experience en tant que <span class="stand-out-element">Data Engineer</span>. <br/><br/>
+
+            Spécialisé dans le <span class="stand-out-element">Big Data</span>, je porte beaucoup d'intéret dans le design et le développement d'architecture possédant un potentiel de <span class="stand-out-element">haute scalabilité</span>.<br/><br/>
+
+            Je considère que le <span class="stand-out-element">Software Engineering</span> est avant tout une question de <span class="stand-out-element">livraison de projets</span>, définir le besoin, planifier les étapes, partager la connaissance et coder sont les compétences que tout développeurs devraient avoir. <br/><br/>
+
+            Dans toute mes expériences, je cherce l'amélioration de mon <span class="stand-out-element">professionalisme</span> dans le but de produire des projets <span class="stand-out-element">simples</span> et
+            <span class="stand-out-element">efficaces</span> qui répondent <span class="stand-out-element">aux besoins du client</span>.
+        </p>
+    </div>
+
+    <div class="section-block experiences" id="experiences">
+        <h1 class="title">II. Experiences</h1>
+        <div class="experiences-box">
+            <div class="experiences-nav-bar">
+                <ul>
+                    <li class="button"><a href="#/" onclick="displayExperienceContent('experience-tinyclues')">Tinyclues</a></li>
+                    <li class="button"><a href="#/" onclick="displayExperienceContent('experience-societe-generale')">Société Générale</a></li>
+                    <li class="button"><a href="#/" onclick="displayExperienceContent('experience-cms-group')">CMS Group</a></li>
+                    <li class="button"><a href="#/" onclick="displayExperienceContent('experience-keyrus')">Keyrus</a></li>
+                    <li class="button"><a href="#/" onclick="displayExperienceContent('experience-amfine-services-and-software')">AMFine Services & Software</a></li>
+                    <li class="button"><a href="#/" onclick="displayExperienceContent('experience-les-ateliers-optentiels')">Les Ateliers Optentiels</a></li>
+                </ul>
+            </div>
+            <div id="experiences-content" class="experiences-content">
+                <div class="experience-tinyclues" id="experience-tinyclues" style="display: block">
+                    <h2 class="title">Data Engineer chez #<a href="https://www.tinyclues.com/">Tinyclues</a> <br/> > Mars 2019 - Septembre 2020</h2>
+                    <p>
+                        Tinyclues est une entreprise de marketing qui possède une plateforme SaaS utilisant l'intéligence artificiel dans le but d'optimiser les campagnes publicitaires de leurs clients.
+                    </p>
+                    <h3 class="title">Tâches</h3>
+                    <ul class="task-list">
+                        <li>Creation d'un nouveau datalake dans le but d'ingérer l'énorme base de données cliente(Petabytes de données).
+                        </li>
+                        <li>Création de jobs pour ingérer de la données.</li>
+                        <li>Création et maintenance d'un framework d'orchestration.</li>
+                        <li>Création et maintenance d'un framework de post processing.</li>
+                    </ul>
+                    <h3 class="title">Techs</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Scala</li>
+                        <li>Apache Spark</li>
+                        <li>Aws Cloud</li>
+                        <li>Airflow</li>
+                        <li>Kubernetes</li>
+                        <li>Terraform</li>
+                        <li>Docker</li>
+                        <li>Play framework</li>
+                        <li>Git</li>
+                        <li>CircleCI</li>
+                    </ul>
+                </div>
+                <div id="experience-societe-generale" class="experience-societe-generale" style="display: None">
+                    <h2 class="title">Data Engineer chez #<a href="https://particuliers.societegenerale.fr/">Societé générale</a> <br/> > Janvier 2018 - Mars 2019 </h2>
+                    <p>
+                        J'ai rejoint l'équipe CTY en charge des outils de trading des matières premières sur la place de marché.
+                    </p>
+                    <h3 class="title">Tâches</h3>
+                    <ul class="task-list">
+                        <li>Création d'une architecture pour construire le rapport MIFID2 pour les produits de matière premières.</li>
+                        <li>Refactoring d'un algorithme en utilisant Spark qui génère une matrice de corrélation entre les clients de la banque et ses produits.</li>
+                        <li>Création de jobs de tranferts de données pour alimenter une base NoSQL.</li>
+                    </ul>
+                    <h3 id="title" class="title">Techs</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Apache Spark</li>
+                        <li>Hadoop (Hortonworks)</li>
+                        <li>Apache Kafka</li>
+                        <li>HBase</li>
+                        <li>SolR</li>
+                        <li>Python</li>
+                        <li>Git</li>
+                        <li>Deployit</li>
+                    </ul>
+                </div>
+                <div id="experience-cms-group" class="experience-cms-group" style="display: None">
+                    <h2 class="title">Data Engineer chez #<a href="https://www.umanis.com/en">CMS Group</a> <br/> > Novembre 2017 - Janvier 2018</h2>
+                    <p>
+                        L'entreprise a été racheté par Umanis. J'y ai travaillé comme un admintrateur Hadoop.
+                    </p>
+                    <h3 class="title">Tâches</h3>
+                    <ul class="task-list">
+                        <li>Mise en place et administration d'un cluster Hadoop utilisé par les Data Scientist et les ingénieurs BI.
+                        </li>
+                    </ul>
+                    <h3 class="title">Techs</h3>
+                    <ul>
+                        <li>Hadoop</li>
+                        <li>Spark</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div id="experience-keyrus" class="experience-keyrus" style="display: None">
+                    <h2 class="title">Data Engineer chez #<a href="https://www.keyrus.com/en/">Keyrus</a> <br/> > Avril 2017 - Octobre 2017</h2>
+                    <p>
+                        En tant que Data Engineer, j'ai pu suivre une formation Spark donné par un committer certifié du projet open source.
+                    </p>
+                    <h3 class="title">Tâches</h3>
+                    <ul class="task-list">
+                        <li>Création d'une blibliothèque de développement dans le but de faclité le transfert de données d'une base SQL vers du NoSQL.
+                        </li>
+                    </ul>
+                    <h3 class="title">Techs</h3>
+                    <ul>
+                        <li>Scala</li>
+                        <li>Hadoop</li>
+                        <li>Spark</li>
+                        <li>MongoDB</li>
+                        <li>Hbase</li>
+                    </ul>
+                </div>
+                <div id="experience-amfine-services-and-software" class="experience-amfine-services-and-software" style="display: None">
+                    <h2 class="title">Développeur Java chez #<a href="https://www.amfinesoft.com/">AMfine Services & Software</a> <br/> > Mai 2016 - Septembre 2016</h2>
+                    <p>
+                        AMfine Services & Software possède une solution SaaS permettant de faire de la gestion de biens financiés.
+                    </p>
+                    <h3 class="title">Tâches</h3>
+                    <ul class="task-list">
+                        <li>Création et implémentation d'un framework de test.</li>
+                        <li>Developpement de la solution SaaS.</li>
+                    </ul>
+                    <h3 class="title">Techs</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Junit</li>
+                        <li>Selenium</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div id="experience-les-ateliers-optentiels" class="experience-les-ateliers-optentiels" style="display: None">
+                    <h2 class="title">Back End developper at #<a href="https://diplomeo.com/etablissement-les_ateliers_optentiel-7914">Les Ateliers Optentiel</a> <br/> > May 2016 - September 2016</h2>
+                    <p>
+                        Les Ateliers Optentiel est une entreprise d'accompagnement scolaire.
+                    </p>
+                    <h3 class="title">Tâches</h3>
+                    <ul class="task-list">
+                        <li>Implémentation d'un outil d'administration afin de gérer le payement des professeurs de manière numérique.</li>
+                    </ul>
+                    <h3 class="title">Techs</h3>
+                    <ul>
+                        <li>Php</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-block education" id="education">
+        <h1 class="title">III. Education</h1>
+        <h2 class="title">Études</h2>
+        <ul>
+            <li>2015 - 2017 <span class="stand-out-element">></span> Master en <span class="stand-out-element">génie logiciel</span> de Paris-Est Marne-la-Vallée.</li>
+            <li>2012 - 2015 <span class="stand-out-element">></span> Licence <span class="stand-out-element">de mathématique et d'informatique</span> de Paris-Est Marne-la-Vallée.</li>
+        </ul>
+        <h2 class="title">Formations</h2>
+        <ul>
+            <li>Big Data Analysis with Scala and spark. <a href="https://www.coursera.org/account/accomplishments/verify/WWCRHRGX84LV"><span class="stand-out-element">Voir référence</span></a></li>
+            <li>The complete Hands-On Introduction to Apache Airflow. <a href="https://www.udemy.com/certificate/UC-K88YYJW6/"><span class="stand-out-element">Voir référence</span></a></li>
+        </ul>
+        <h2 class="title">Intérets personnels</h2>
+        <br/>
+        <h3 class="title">Livres</h3>
+        <ul>
+            <li><span class="stand-out-element">Clean code</span> par Robert C. Martin</li>
+            <li><span class="stand-out-element">Clean coder</span> par Robert C. Martin</li>
+            <li><span class="stand-out-element">Programming in Scala</span> par Odersky, Spoon and Venners</li>
+            <li><span class="stand-out-element">Penetration Testing A hand on hacking</span> par Weidman</li>
+            <li><span class="stand-out-element">High performance Spark</span> par Karau & Warren</li>
+            <li><span class="stand-out-element">Architecture des machines</span> par J. Delacroix, A. Cazes</li>
+            <li><span class="stand-out-element">La Blockchain pour les nuls</span> par Tiana Laurence</li>
+        </ul>
+        <br/>
+        <h3 class="title">Projets personnels</h3>
+        <ul>
+            <li><a href="https://github.com/omegaspard/gaspard-dubois-website"><span class="stand-out-element">Ce site web (Voir sur github)</span></a> fait avec le scala play framework. </li><!--TODO add github -->
+            <li><a href="https://github.com/omegaspard/simple-snake-in-java"><span class="stand-out-element">Le jeu du snake en java (Voir sur github)</span></a> fait avec libGDX.</li><!--TODO add github-->
+        </ul>
+    </div>
+
+    <div class="section-block certification" id="certification">
+        <h1 class="title">IV. Certification</h1>
+        <ul>
+            <li>Certification Aws Big Data Engineer. (In progress)</li>
+            <li>Certification Big Data Engineer certificate. (In progress)</li>
+        </ul>
+    </div>
+
+    <div class="section-block contact" id="contact">
+        <h1 class="title">V. Me contacter</h1>
+        <p>Pour toute demande commercial ou si vous voulez juste dire coucou, voici mon email :)<br/>
+             <span class="stand-out-element">gaspardddubois@@gmail.com</span>.<br/><br/>
+            <a href="https://github.com/omegaspard"><img width="64" height="64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzVDNkJDMDsiIGQ9Ik0yNTUuOTY4LDUuMzI5QzExNC42MjQsNS4zMjksMCwxMjAuNDAxLDAsMjYyLjM1M2MwLDExMy41MzYsNzMuMzQ0LDIwOS44NTYsMTc1LjEwNCwyNDMuODcyDQoJYzEyLjgsMi4zNjgsMTcuNDcyLTUuNTY4LDE3LjQ3Mi0xMi4zODRjMC02LjExMi0wLjIyNC0yMi4yNzItMC4zNTItNDMuNzEyYy03MS4yLDE1LjUyLTg2LjI0LTM0LjQ2NC04Ni4yNC0zNC40NjQNCgljLTExLjYxNi0yOS42OTYtMjguNDE2LTM3LjYtMjguNDE2LTM3LjZjLTIzLjI2NC0xNS45MzYsMS43MjgtMTUuNjE2LDEuNzI4LTE1LjYxNmMyNS42OTYsMS44MjQsMzkuMiwyNi40OTYsMzkuMiwyNi40OTYNCgljMjIuODQ4LDM5LjI2NCw1OS45MzYsMjcuOTM2LDc0LjUyOCwyMS4zNDRjMi4zMDQtMTYuNjA4LDguOTI4LTI3LjkzNiwxNi4yNTYtMzQuMzY4Yy01Ni44MzItNi40OTYtMTE2LjYwOC0yOC41NDQtMTE2LjYwOC0xMjcuMDA4DQoJYzAtMjguMDY0LDkuOTg0LTUxLjAwOCwyNi4zNjgtNjguOTkyYy0yLjY1Ni02LjQ5Ni0xMS40MjQtMzIuNjQsMi40OTYtNjhjMCwwLDIxLjUwNC02LjkxMiw3MC40LDI2LjMzNg0KCWMyMC40MTYtNS42OTYsNDIuMzA0LTguNTQ0LDY0LjA5Ni04LjY0YzIxLjcyOCwwLjEyOCw0My42NDgsMi45NDQsNjQuMDk2LDguNjcyYzQ4Ljg2NC0zMy4yNDgsNzAuMzM2LTI2LjMzNiw3MC4zMzYtMjYuMzM2DQoJYzEzLjk1MiwzNS4zOTIsNS4xODQsNjEuNTA0LDIuNTYsNjhjMTYuNDE2LDE3Ljk4NCwyNi4zMDQsNDAuOTI4LDI2LjMwNCw2OC45OTJjMCw5OC43Mi01OS44NCwxMjAuNDQ4LTExNi44NjQsMTI2LjgxNg0KCWM5LjE4NCw3LjkzNiwxNy4zNzYsMjMuNjE2LDE3LjM3Niw0Ny41ODRjMCwzNC4zNjgtMC4zMiw2Mi4wOC0wLjMyLDcwLjQ5NmMwLDYuODgsNC42MDgsMTQuODgsMTcuNiwxMi4zNTINCglDNDM4LjcyLDQ3Mi4xNDUsNTEyLDM3NS44NTcsNTEyLDI2Mi4zNTNDNTEyLDEyMC40MDEsMzk3LjM3Niw1LjMyOSwyNTUuOTY4LDUuMzI5eiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" /></a>
+            <a href="https://www.linkedin.com/in/gaspard-diop-dubois-49319a134/"><img width="64" height="64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDM4MiAzODIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM4MiAzODI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwMDc3Qjc7IiBkPSJNMzQ3LjQ0NSwwSDM0LjU1NUMxNS40NzEsMCwwLDE1LjQ3MSwwLDM0LjU1NXYzMTIuODg5QzAsMzY2LjUyOSwxNS40NzEsMzgyLDM0LjU1NSwzODJoMzEyLjg4OQ0KCUMzNjYuNTI5LDM4MiwzODIsMzY2LjUyOSwzODIsMzQ3LjQ0NFYzNC41NTVDMzgyLDE1LjQ3MSwzNjYuNTI5LDAsMzQ3LjQ0NSwweiBNMTE4LjIwNywzMjkuODQ0YzAsNS41NTQtNC41MDIsMTAuMDU2LTEwLjA1NiwxMC4wNTYNCglINjUuMzQ1Yy01LjU1NCwwLTEwLjA1Ni00LjUwMi0xMC4wNTYtMTAuMDU2VjE1MC40MDNjMC01LjU1NCw0LjUwMi0xMC4wNTYsMTAuMDU2LTEwLjA1Nmg0Mi44MDYNCgljNS41NTQsMCwxMC4wNTYsNC41MDIsMTAuMDU2LDEwLjA1NlYzMjkuODQ0eiBNODYuNzQ4LDEyMy40MzJjLTIyLjQ1OSwwLTQwLjY2Ni0xOC4yMDctNDAuNjY2LTQwLjY2NlM2NC4yODksNDIuMSw4Ni43NDgsNDIuMQ0KCXM0MC42NjYsMTguMjA3LDQwLjY2Niw0MC42NjZTMTA5LjIwOCwxMjMuNDMyLDg2Ljc0OCwxMjMuNDMyeiBNMzQxLjkxLDMzMC42NTRjMCw1LjEwNi00LjE0LDkuMjQ2LTkuMjQ2LDkuMjQ2SDI4Ni43Mw0KCWMtNS4xMDYsMC05LjI0Ni00LjE0LTkuMjQ2LTkuMjQ2di04NC4xNjhjMC0xMi41NTYsMy42ODMtNTUuMDIxLTMyLjgxMy01NS4wMjFjLTI4LjMwOSwwLTM0LjA1MSwyOS4wNjYtMzUuMjA0LDQyLjExdjk3LjA3OQ0KCWMwLDUuMTA2LTQuMTM5LDkuMjQ2LTkuMjQ2LDkuMjQ2aC00NC40MjZjLTUuMTA2LDAtOS4yNDYtNC4xNC05LjI0Ni05LjI0NlYxNDkuNTkzYzAtNS4xMDYsNC4xNC05LjI0Niw5LjI0Ni05LjI0Nmg0NC40MjYNCgljNS4xMDYsMCw5LjI0Niw0LjE0LDkuMjQ2LDkuMjQ2djE1LjY1NWMxMC40OTctMTUuNzUzLDI2LjA5Ny0yNy45MTIsNTkuMzEyLTI3LjkxMmM3My41NTIsMCw3My4xMzEsNjguNzE2LDczLjEzMSwxMDYuNDcyDQoJTDM0MS45MSwzMzAuNjU0TDM0MS45MSwzMzAuNjU0eiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" /></a>
+            <br/><br/><br/>
+            <a href="assets/resources/cv.pdf" class="button">CV</a>
+            <a href="mailto:gaspardddubois@@gmail.com" class="button">Mail</a>
+        </p>
+    </div>
+</div>
+}
