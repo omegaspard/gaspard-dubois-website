@@ -13,7 +13,7 @@
 }
 
 p{
-    margin-bottin: 15px;
+    margin-bottom: 15px;
     font-size: 14px;
     line-height: 20px;
 }
@@ -87,6 +87,8 @@ h3.title {
     width: 64px;
     height: 64px;
     padding: 10px;
+    display: block;
+    margin-right: 90px;
 }
 
 /* TODO To remove when I have the logo. */
