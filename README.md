@@ -2,6 +2,8 @@
 
 My website made with the play framework.
 
+http://www.gasparddubois.com/
+
 # Motivations   
 
 In our current era we have many options to display our professional profile with much more visibility than our own website.
@@ -31,3 +33,4 @@ Here a list of the elements that are crossing my mind:
 - Add a French version of the website. (Done)
 - Add more dynamic front end element? Animation when loading the website, the behaviours when hovering some elements, pictures?
 - Add test.
+- Add https.
