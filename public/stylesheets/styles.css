@@ -34,11 +34,11 @@ h1.title {
 }
 
 h1.title:after {
-content:'';
-display:flex;
-width:100%;
-height:100%;
-border-bottom:3px solid #C5FAD5;
+    content:'';
+    display:flex;
+    width:100%;
+    height:100%;
+    border-bottom:3px solid #C5FAD5;
 }
 
 h2.title {
@@ -91,10 +91,6 @@ h3.title {
     margin-right: 90px;
 }
 
-/* TODO To remove when I have the logo. */
-.logo a {
-}
-
 .navbar .navbar_items ul {
     display: flex;
 }
@@ -141,13 +137,13 @@ h3.title {
 }
 
 .about h1 {
-text-align:right;
-padding-bottom: 20px;
+    text-align:right;
+    padding-bottom: 20px;
 }
 
 .about p {
   font-size: 22px;
-  line-height: 22px;
+  line-height: 28px;
 }
 
 /* Experiences */
@@ -155,7 +151,7 @@ padding-bottom: 20px;
 }
 
 .experiences-box {
-display: flex;
+    display: flex;
 }
 
 .experiences-nav-bar {
@@ -202,11 +198,11 @@ display: flex;
 }
 
 .education h1.title {
-text-align:right;
+    text-align:right;
 }
 
 .education li {
-padding: 10px;
+    padding: 10px;
 }
 
 /* Certification */
@@ -215,12 +211,12 @@ padding: 10px;
 }
 
 .certification li {
-padding: 10px;
+    padding: 10px;
 }
 
 /* Contact */
 .contact {
-padding-bottom: 150px;
+    padding-bottom: 150px;
 }
 
 .contact p {
@@ -228,5 +224,5 @@ padding-bottom: 150px;
 }
 
 .contact h1.title {
- text-align: right;
+    text-align: right;
 }
